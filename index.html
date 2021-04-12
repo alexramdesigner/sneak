@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sneak</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/png" sizes="103x103" href="img/logo.png">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+</head>
+
+<body>
+    <div class="content">
+        <header class="navbar">
+            <div class="nav">
+                <div class="logo">
+                    <img src="img/logo.png" class="img-logo fl">
+                    <div class="img-slogan fl">
+                        <div>SNEAK</div>
+                        <div class="sub">CREATIVE PORTFOLIO</div>
+                    </div>
+                </div>
+                <nav id="site-nav" class="site-nav">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-home site-nav--icon"></i>All</a></li>
+                        <li><a href="#"><i class="fa fa-info site-nav--icon"></i>Branding</a></li>
+                        <li><a href="#"><i class="fa fa-pencil-alt site-nav--icon"></i>Web</a></li>
+                        <li><a href="#"><i class="fa fa-dollar-sign site-nav--icon"></i>Photography</a></li>
+                        <li><a href="#"><i class="fa fa-envelope site-nav--icon"></i>App</a></li>
+                        <li><a href="#" class="btn-search"><i class="fa fa-search site-nav--icon"></i>
+                            <img src="img/search-icon.png" class="img-search"></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="menu-toggle" class="menu-toggle" onClick="changeClass()">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="banner_desc">
+                <h1 class="banner_title">EXPLORE BEYOND HORIZON</h1>
+                <p class="banner_text"> Magna mundi referrentur que, no reburn dignissim qui. Per quodsi accusata id, agam labores </p>
+                <a class="banner_link" href="https://inggen.com/" target="_blank">VIEW OUR WORK </a>
+            </div>
+        </div>
+        <div id="portfolio" class="portfolio">
+            <div class="views">
+                <a id="btn-grid-view" href="#"><img src="img/grid-icon.png" width="16"></a>
+                <a id="btn-list-view" href="#"><img src="img/list-icon.png" width="16"></a>
+            </div>
+            <div class="categories">
+                <ul class="cat-list">
+                    <li class="item">
+                        <a class="cat_link cat_link_active" data-cat="All" href="#portfolio">All</a>
+                    </li>
+                    <li class="item">
+                        <a class="cat_link" href="#portfolio" data-cat="Branding">Branding</a>
+                    </li>
+                    <li class="item">
+                        <a class="cat_link" href="#portfolio" data-cat="Web">Web</a>
+                    </li>
+                    <li class="item">
+                        <a class="cat_link" href="#portfolio" data-cat="Photography">Photography</a>
+                    </li>
+                    <li class="item">
+                        <a class="cat_link" href="#portfolio" data-cat="App">App</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container" id="photos">
+                <!--<figure>
+                    <img class="img-unsplash" src="https://assets.codepen.io/12005/windmill.jpg" alt="A windmill" />
+                    <figcaption><a href="#">1</a></figcaption>
+                </figure>-->
+            </div>
+            <div class="showmore">
+                <a id="showmore" class="cat_show_more" href="#">Show Me More</a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                © 2021 - <span>Sneak</span> All Right Reserved
+            </div>
+            <div class="socialmedia">
+                <ul class="social">
+                    <li>
+                        <a href="https://facebook.com/" target="_blank">
+                            <img class="social_icon" src="img/facebook.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img class="social_icon" src="img/twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://dribble.com/" target="_blank">
+                            <img class="social_icon" src="img/dribble.png" alt="dribble">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://google.com/" target="_blank">
+                            <img class="social_icon" src="img/google.png" alt="google">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/" target="_blank">
+                            <img class="social_icon" src="img/youtube.png" alt="youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src='js/main.js'></script>
+</body>
+
+</html>
